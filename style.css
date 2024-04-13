@@ -459,10 +459,51 @@ footer img {
     height: 60vh;
     padding: 22px;
   }
+  .exp ul li {
+    margin: auto;
+  }
   .main {
     flex-direction: column;
   }
   .left {
     width: 100%;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .project {
+    margin-top: 80px;
+  }
+  .button-about {
+    justify-content: center;
+  }
+  .image1 img {
+    width: 100%;
+    z-index: 2;
+    position: relative;
+  }
+  .image1 .frame {
+    border: 10px solid #4ba0d1;
+    border-radius: 10px;
+    position: absolute;
+    width: 80%;
+    height: 100%;
+    bottom: -30px;
+    right: 110px;
+    z-index: 1;
+  }
+  .project {
+    height: 325vh;
+  }
+  .services {
+    height: 180vh;
+  }
+  .main {
+    flex-direction: row;
+  }
+  .left {
+    width: 40%;
+  }
+  .hero p {
+    font-size: 70px;
   }
 }
